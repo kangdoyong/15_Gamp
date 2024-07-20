@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\01_상속">
+      <UniqueIdentifier>{cac767ef-c904-4b7d-a266-1e3099e6ced8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01_상속\01_상속">
+      <UniqueIdentifier>{68f40d0b-c8c7-4b60-8176-38cd09685d15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01_상속\02_상속">
+      <UniqueIdentifier>{7be84f06-e308-4b92-90c7-00292d9f97db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01_상속\03_상속">
+      <UniqueIdentifier>{ee2868e6-7dbf-42a0-ab03-68fe818ec6bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01_상속\04_상속">
+      <UniqueIdentifier>{06270667-382b-4dad-a2b6-56f7f8cfd72e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01_상속\05_상속">
+      <UniqueIdentifier>{b3276a0b-f640-4fa5-a52a-ec838fd94b1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02_가상함수_오버라이딩">
+      <UniqueIdentifier>{6cabe9df-937f-4571-93cf-e33fb93452d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02_가상함수_오버라이딩\01_가상함수_오버라이딩">
+      <UniqueIdentifier>{5d6f53f6-b157-4cf9-89dd-e6e3648c2b71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02_가상함수_오버라이딩\02_가상함수_오버라이딩">
+      <UniqueIdentifier>{93a16438-e806-426f-a826-87bb413bf4df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02_가상함수_오버라이딩\03_가상소멸자">
+      <UniqueIdentifier>{f035002a-b0af-4818-beea-6a66758380f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03_순수가상함수">
+      <UniqueIdentifier>{8c030169-92cc-49c5-9503-b28ebb0041d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03_순수가상함수\01_추상클래스">
+      <UniqueIdentifier>{739bb969-8155-4e4a-b196-30c4a8691752}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03_순수가상함수\02_추상클래스">
+      <UniqueIdentifier>{87a3915a-a162-42df-8bc3-b4a10b776f78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04_인터페이스">
+      <UniqueIdentifier>{7dc88351-cebd-4419-a0ca-73d44e68ae07}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Sample1.cpp">
+      <Filter>소스 파일\01_상속\01_상속</Filter>
+    </ClCompile>
+    <ClCompile Include="Sample2.cpp">
+      <Filter>소스 파일\01_상속\01_상속</Filter>
+    </ClCompile>
+    <ClCompile Include="01_상속.cpp">
+      <Filter>소스 파일\01_상속\01_상속</Filter>
+    </ClCompile>
+    <ClCompile Include="02_상속.cpp">
+      <Filter>소스 파일\01_상속\02_상속</Filter>
+    </ClCompile>
+    <ClCompile Include="03_상속.cpp">
+      <Filter>소스 파일\01_상속\03_상속</Filter>
+    </ClCompile>
+    <ClCompile Include="Human.cpp">
+      <Filter>소스 파일\01_상속\03_상속</Filter>
+    </ClCompile>
+    <ClCompile Include="Student.cpp">
+      <Filter>소스 파일\01_상속\03_상속</Filter>
+    </ClCompile>
+    <ClCompile Include="04_상속.cpp">
+      <Filter>소스 파일\01_상속\04_상속</Filter>
+    </ClCompile>
+    <ClCompile Include="Archer.cpp">
+      <Filter>소스 파일\01_상속\04_상속</Filter>
+    </ClCompile>
+    <ClCompile Include="Job.cpp">
+      <Filter>소스 파일\01_상속\04_상속</Filter>
+    </ClCompile>
+    <ClCompile Include="Warrior.cpp">
+      <Filter>소스 파일\01_상속\04_상속</Filter>
+    </ClCompile>
+    <ClCompile Include="05_상속.cpp">
+      <Filter>소스 파일\01_상속\05_상속</Filter>
+    </ClCompile>
+    <ClCompile Include="Flower.cpp">
+      <Filter>소스 파일\01_상속\05_상속</Filter>
+    </ClCompile>
+    <ClCompile Include="Rose.cpp">
+      <Filter>소스 파일\01_상속\05_상속</Filter>
+    </ClCompile>
+    <ClCompile Include="Tulip.cpp">
+      <Filter>소스 파일\01_상속\05_상속</Filter>
+    </ClCompile>
+    <ClCompile Include="01_가상함수_오버라이딩.cpp">
+      <Filter>소스 파일\02_가상함수_오버라이딩\01_가상함수_오버라이딩</Filter>
+    </ClCompile>
+    <ClCompile Include="02_가상함수_오버라이딩.cpp">
+      <Filter>소스 파일\02_가상함수_오버라이딩\02_가상함수_오버라이딩</Filter>
+    </ClCompile>
+    <ClCompile Include="03_가상소멸자.cpp">
+      <Filter>소스 파일\02_가상함수_오버라이딩\03_가상소멸자</Filter>
+    </ClCompile>
+    <ClCompile Include="01_추상클래스.cpp">
+      <Filter>소스 파일\03_순수가상함수\01_추상클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="02_추상클래스.cpp">
+      <Filter>소스 파일\03_순수가상함수\02_추상클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="Computer.cpp">
+      <Filter>소스 파일\03_순수가상함수\02_추상클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="Machine.cpp">
+      <Filter>소스 파일\03_순수가상함수\02_추상클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="MyWindow.cpp">
+      <Filter>소스 파일\03_순수가상함수\02_추상클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="01_인터페이스.cpp">
+      <Filter>소스 파일\04_인터페이스</Filter>
+    </ClCompile>
+    <ClCompile Include="02_인터페이스.cpp">
+      <Filter>소스 파일\04_인터페이스</Filter>
+    </ClCompile>
+    <ClCompile Include="Phone.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Sample1.h">
+      <Filter>소스 파일\01_상속\01_상속</Filter>
+    </ClInclude>
+    <ClInclude Include="Sample2.h">
+      <Filter>소스 파일\01_상속\01_상속</Filter>
+    </ClInclude>
+    <ClInclude Include="Human.h">
+      <Filter>소스 파일\01_상속\03_상속</Filter>
+    </ClInclude>
+    <ClInclude Include="Student.h">
+      <Filter>소스 파일\01_상속\03_상속</Filter>
+    </ClInclude>
+    <ClInclude Include="Archer.h">
+      <Filter>소스 파일\01_상속\04_상속</Filter>
+    </ClInclude>
+    <ClInclude Include="Job.h">
+      <Filter>소스 파일\01_상속\04_상속</Filter>
+    </ClInclude>
+    <ClInclude Include="Warrior.h">
+      <Filter>소스 파일\01_상속\04_상속</Filter>
+    </ClInclude>
+    <ClInclude Include="Flower.h">
+      <Filter>소스 파일\01_상속\05_상속</Filter>
+    </ClInclude>
+    <ClInclude Include="Rose.h">
+      <Filter>소스 파일\01_상속\05_상속</Filter>
+    </ClInclude>
+    <ClInclude Include="Tulip.h">
+      <Filter>소스 파일\01_상속\05_상속</Filter>
+    </ClInclude>
+    <ClInclude Include="Computer.h">
+      <Filter>소스 파일\03_순수가상함수\02_추상클래스</Filter>
+    </ClInclude>
+    <ClInclude Include="Machine.h">
+      <Filter>소스 파일\03_순수가상함수\02_추상클래스</Filter>
+    </ClInclude>
+    <ClInclude Include="MyWindow.h">
+      <Filter>소스 파일\03_순수가상함수\02_추상클래스</Filter>
+    </ClInclude>
+    <ClInclude Include="Phone.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ICall.h">
+      <Filter>소스 파일\04_인터페이스</Filter>
+    </ClInclude>
+    <ClInclude Include="IMessage.h">
+      <Filter>소스 파일\04_인터페이스</Filter>
+    </ClInclude>
+    <ClInclude Include="IReceiveMessage.h">
+      <Filter>소스 파일\04_인터페이스</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
